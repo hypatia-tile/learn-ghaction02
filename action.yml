@@ -1,20 +1,10 @@
-name: "Say hello"
-description: "A simple composite action example"
+name: "My JS Action"
+description: "Does something with JS"
 inputs:
-  who:
+  name:
     description: "Who to greet"
     required: true
-    default: "world"
-outputs:
-  result:
-    description: "The greeting message"
-runs:
-  using: "composite"
-  steps:
-    - name: Run script
-      shell: bash
-      run: |
-        msg="Hello, ${{ inputs.who }}!"
-        echo "$msg"
-        echo "result=$msg" >> "$GITHUB_OUTPUT"
+  runs:
+    using: "node20"
+    main: "dist/index.js"
 
