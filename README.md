@@ -51,3 +51,8 @@ jobs:
 Composite actions are documented [here](https://docs.github.com/en/actions/tutorials/create-actions/create-a-composite-action?utm_source=chatgpt.com) and are great "first custom action" path.
 
 
+## Node.js Actions
+
+[reference](https://qiita.com/eno49conan/items/8916db871050073794ff)
+Use `ncc` for the compatibility to GitHub Actions runtime environment.
+
