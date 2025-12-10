@@ -1,0 +1,26 @@
+{
+  "name": "learn-ghaction02",
+  "version": "1.0.0",
+  "description": "This repository is the second point of a GitHub Actions learning series. Now that, I have accustomed to the basic of GitHub Actions; I can create very simple wokrflows. In this repository, I try to create a simple action.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypatia-tile/learn-ghaction02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hypatia-tile/learn-ghaction02/issues"
+  },
+  "homepage": "https://github.com/hypatia-tile/learn-ghaction02#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "typescript": "^5.9.3"
+  }
+}
