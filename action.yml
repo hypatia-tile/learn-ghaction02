@@ -1,12 +1,14 @@
-name: "My JS Action"
-description: "Does something with JS"
+name: My TepeScript Action"
+description: "A simple GitHub Action written in TypeScript"
+
 inputs:
   name:
-    description: "Who to greet"
-    required: true
+    description: "Name to greet"
+    requred: true
+outputs:
+  greeting:
+    description: "The final greeting message"
+
 runs:
   using: "node20"
   main: "dist/index.js"
-  arguments:
-    - ${{ inputs.name }}
-
